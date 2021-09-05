@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400&display=swap');
+
 .card-nota{
     width: 200px;
     height: 200px;
@@ -6,7 +8,25 @@
     flex-direction: column;
     align-items: center;
 
-    background-color: bisque;
-
+    background-color: #e7892a;
     margin: 30px;
+
+    border-radius: 10px;
+}
+
+p, h3{
+    width: 180px;
+    word-wrap: break-word;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+h3{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: larger;
+}
+
+p{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: medium;
 }

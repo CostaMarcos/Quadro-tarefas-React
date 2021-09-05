@@ -1,32 +1,30 @@
 # React Quadro de tarefas
 
-![versao_1](./src/assets/img/v1.png)
-### `Versão 1`
+![versao_1](./src/assets/img/v2.png)
+### `Versão 2`
 
 
 ### Lições aprendidas
-- Organização de projeto
-- Componentização
-- Como funciona o JSX
-- Bind de eventos
+- Receber props em componentes filhos
+- estados de renderização
 
 ## Scripts disponíveis
 
-Você pode iniciar esse projeto com o seguinte comando.
+Você pode iniciar esse projeto com o seguinte comando:
 
 ### `npm start`
 
 Inicia a aplicação em modo de desenvolvimento\
-Abrindo [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
+Abrindo [http://localhost:3000](http://localhost:3000) para visualização no navegador.
 
-A página será reiniciada após atualizações\
+A página será reiniciada após atualizações no código
 
 ### `npm run build`
 
-Produzirá o arquivo de produção na pasta `build`.\
+Produzirá o arquivo de produção na pasta `build`.
 
-O build é minificado e os nomes dos arquivos incluem os hashes.\
-Suas aplicação está pronta para a produção!
+O build é minificado e os nomes dos arquivos incluem os hashes.
+Sua aplicação está pronta para a produção!
 
 Veja a seção sobre deploy [deployment](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
 
