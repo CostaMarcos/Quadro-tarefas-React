@@ -1,0 +1,11 @@
+ul{
+    list-style-type: none;
+}
+
+.lista-notas_ul{
+    max-width: 70vw;
+    max-height: 90vh;
+    display: flex;
+
+    flex-wrap: wrap;
+}

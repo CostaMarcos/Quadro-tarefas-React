@@ -1,0 +1,26 @@
+.formulario-cadastro_form{
+    height: 90vh;
+    width: 20vw;
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 50px;
+}
+
+.formulario-cadastro_input{
+    max-width: 50vw;
+    height: 4vh;
+    margin: 10px;
+
+    border-radius: 5px;
+    border-color:rgba(0, 0, 0, 0.2);
+
+    font-size: large;
+}
+
+.formulario-cadastro_submit{
+    background-color: darkcyan;
+    border: none;
+    color: #fff;
+}
