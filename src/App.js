@@ -21,11 +21,21 @@ export class App extends Component {
 
     this.setState(novoEstado);
   }
+
+  deletarNota(indice) {
+    const arrayNotas = this.state.notas;
+    arrayNotas.splice(indice, 1);
+    this.setState({ notas: arrayNotas });
+  }
+
   render() {
     return (
       <div className="main">
         <FormularioCadastro criarNota={this.criarNota.bind(this)} />
-        <ListaNotas notas={this.state.notas} />
+        <ListaNotas
+          deletarNota={this.deletarNota.bind(this)}
+          notas={this.state.notas}
+        />
       </div>
     );
   }
