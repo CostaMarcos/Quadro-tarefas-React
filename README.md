@@ -7,6 +7,7 @@
 ### Lições aprendidas
 - Receber props em componentes filhos
 - estados de renderização
+- Statefull e Stateless components
 
 ## Scripts disponíveis
 
