@@ -1,8 +1,7 @@
 # React Quadro de tarefas
 
-![versao_1](./src/assets/img/v2.png)
-### `Versão 2`
-
+![versao_1](./src/assets/img/v3.png)
+### `Versão 3`
 
 ### Lições aprendidas
 - Receber props em componentes filhos
